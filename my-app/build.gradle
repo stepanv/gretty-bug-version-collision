@@ -1,0 +1,11 @@
+apply plugin: 'war'
+apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
+
+dependencies {
+    compile "com.google.guava:guava:23.6-jre"
+    compile project(':my-lib')
+}
+
+gretty {
+    servletContainer = 'jetty9.3'
+}

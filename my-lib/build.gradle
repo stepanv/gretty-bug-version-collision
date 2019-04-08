@@ -1,0 +1,7 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.9.8"
+}
