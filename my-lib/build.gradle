@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    compile "com.fasterxml.jackson.datatype:jackson-datatype-guava:2.9.8"
+    compile "com.google.guava:guava:18.0"
 }
